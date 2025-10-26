@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MRS BADMUS STORE</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url(https://i.postimg.cc/fWxJVhQ2/4b8c018f5df48d40480fe35301de8ae2.jpg);
+      height: 100vh;
+      justify-content: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      position: relative;  /* To keep the overlay positioned correctly */
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .login-box {
+      position: relative;
+      z-index: 1;
+      padding: 40px;
+      width: 400px; /* Fixed width */
+      color: white;
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 15px; /* Optional: Rounded edges for the box */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: Shadow for depth */
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;          /* Use flexbox */
+      flex-direction: column; /* Stack inputs vertically */
+      align-items: center;   /* Center align items */
+    }
+
+    .input {
+      width: 100%;           /* Use full width of the container */
+      height: 50px;          /* Consistent height */
+      font-size: 15px;
+      padding: 10px;         
+      margin-bottom: 15px;    /* Space between inputs */
+      border: 1px solid #ccc; 
+      border-radius: 30px; 
+    }
+
+    button {
+      width: 100%;           /* Full width for the button */
+      height: 50px;          /* Consistent height */
+      border: none;          /* Remove default border */
+      border-radius: 30px; 
+      background-color: #28a745; /* Change button color as needed */
+      color: white;          /* Text color */
+      font-size: 16px;       
+      cursor: pointer;       /* Change cursor on hover */
+    }
+
+    button:hover {
+      background-color: #218838; /* Darker shade when hovering */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <div class="login-box">
+    <h1>Log in</h1>
+    <form>
+      <input type="email" class="input" placeholder="Enter your email" required>
+      <input type="password" class="input" placeholder="Password🔒" required>
+      <input type="checkbox"> Remember me<br>
+      <button type="submit"><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/yhh.html">Log in</a></button>
+    </form>
+    
+  </div>
+</body>
+
+</html>
